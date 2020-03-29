@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>icon / line / chevron down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="10 8.53139361 18.2656968 0.265696804 19.7343032 1.7343032 10 11.4686064 0.265696804 1.7343032 1.7343032 0.265696804"></polygon>
+    </defs>
+    <g id="icon-/-line-/-chevron-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="color-/-primary" transform="translate(2.000000, 7.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" fill="#143665" id="Base">
+                <g transform="translate(0.000000, -5.000000)">
+                    <rect x="0" y="0" width="20" height="20"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
