@@ -1,0 +1,66 @@
+.page-detail {
+    padding: 30px 0;
+
+    & .section-gutter {
+        margin-top: 30px;
+    }
+
+    & .stats {
+        color: #ffffff;
+        width: 60%;
+        border-radius: var(--primary-radius);
+        border: 1px solid var(--border-color);
+        overflow: hidden;
+
+        & .stats-section {
+            flex-grow: 2;
+            padding: 20px;
+
+            &.orange-young {
+                background-color: #f0932b;
+            }
+
+            &.orange {
+                background-color: #ffbe76;
+            }
+        }
+
+
+    }
+
+    & .image-sprites {
+        background-color: #ffffff;
+        border-radius: var(--primary-radius);
+        border: 1px solid var(--border-color);
+
+        & .img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    & .ability {
+        & .weapon {
+            border: 1px solid var(--border-color);
+            width: 60%;
+            border-radius: var(--primary-radius);
+            overflow: hidden;
+            justify-content: space-between;
+
+            & .item {
+                padding: 20px;
+                flex-grow: 2;
+                color: #ffffff;
+                width: 50%;
+
+                &.red {
+                    background-color: var(--primary-color);
+                }
+
+                &.young-blue {
+                    background-color: #30336b;
+                }
+            }
+        }
+    }
+}
