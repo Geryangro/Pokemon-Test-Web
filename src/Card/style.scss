@@ -1,0 +1,67 @@
+.card-pokemon {
+  width: 100%;
+  border-radius: var(--primary-radius);
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  height: 100px;
+  line-height: 100px;
+  padding: 20px;
+  display: table;
+
+  &:hover {
+    background: linear-gradient(36deg, #d84ad9, #ea524f, #f0be59);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 0% 90%;
+      }
+
+      50% {
+        background-position: 100% 11%;
+      }
+
+      100% {
+        background-position: 0% 90%;
+      }
+    }
+
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 0% 90%;
+      }
+
+      50% {
+        background-position: 100% 11%;
+      }
+
+      100% {
+        background-position: 0% 90%;
+      }
+    }
+
+    @keyframes AnimationName {
+      0% {
+        background-position: 0% 90%;
+      }
+
+      50% {
+        background-position: 100% 11%;
+      }
+
+      100% {
+        background-position: 0% 90%;
+      }
+    }
+  }
+
+  & h2 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
