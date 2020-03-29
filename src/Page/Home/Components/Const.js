@@ -1,0 +1,22 @@
+export const options = [
+  { value: "1", label: "Normal" },
+  { value: "2", label: "Fighting" },
+  { value: "3", label: "Flying" },
+  { value: "4", label: "Poison" },
+  { value: "5", label: "Ground" },
+  { value: "6", label: "Rock" },
+  { value: "7", label: "Bug" },
+  { value: "8", label: "Ghost" },
+  { value: "9", label: "Steel" },
+  { value: "10", label: "Fire" },
+  { value: "11", label: "Water" },
+  { value: "12", label: "Grass" },
+  { value: "13", label: "Electric" },
+  { value: "14", label: "Psychic" },
+  { value: "15", label: "Ice" },
+  { value: "16", label: "Dragon" },
+  { value: "17", label: "Dark" },
+  { value: "18", label: "Fairy" },
+  { value: "19", label: "Unknown" },
+  { value: "20", label: "Shadow" }
+];
